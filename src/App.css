@@ -1,22 +1,40 @@
-.App-logo {
-  display: block;
-  max-width: 200px;
+.App {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
+  max-width: 960px;
+}
+.App-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
 }
 .App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 30px 0;
 }
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 30px auto;
+  background-color: #8dc6ff;
+  opacity: 0.8;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0.3px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
 }
-
+h1 {
+  text-align: center;
+}
 body {
-  background: radial-gradient(
-    circle at 4.3% 10.7%,
-    rgb(138, 118, 249) 13.6%,
-    rgb(75, 252, 235) 100.7%
-  );
+  background-image: url("../images/library-background.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: normal;
+}
+a {
+  color: white;
 }

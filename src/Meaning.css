@@ -1,0 +1,13 @@
+.speech {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.definition {
+  margin-top: 10px;
+}
+.example {
+  margin-bottom: 5px;
+}
+.synonym {
+  line-height: 1.5;
+}
